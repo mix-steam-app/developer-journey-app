@@ -30,7 +30,7 @@ export default function Navbar() {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Mission History', href: '/mission-history' },
+    { name: 'Test', href: '/mission-history' },
   ].map((route: any) => ({
     ...route,
     current: router.pathname === route.href,
